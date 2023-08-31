@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt Prism&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great Vibes&display=swap">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animasyonlu Intro Örneği</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background:#1f1f1f;
+    }
+    .navbar {
+        position:absolute;
+        top:0%;
+        left:0%;
+        width:100%;
+        height:10%;
+        background: linear-gradient(to right, #cf6f23,black 100%);
+    }
+    .baslik {
+        position:absolute;
+        top:-1%;
+        text-align:center;
+        font-family:'Tilt Prism';
+        background: linear-gradient(to right, white,#464646 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    .arkaplan {
+       position:absolute;
+       top:14%;
+       left:0%;
+       width:100%;
+       opacity:0.6;
+    }
+
+    #intro {
+      opacity: 0;
+      text-align: center;
+      animation: fadeIn 1.5s forwards;
+      position:absolute;
+      top:14%;
+      background: linear-gradient(to right, orange,white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-family:'Tilt Prism';
+    }
+    
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .arkaplan2 {
+       position:absolute;
+       top:56%;
+       left:0%;
+       width:100%;
+       opacity:0.6;
+    }
+
+    #intro2 {
+      opacity: 0;
+      text-align: center;
+      animation: fadeIn 1.5s forwards;
+      position:absolute;
+      top:56%;
+      background: linear-gradient(to right, yellow,white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-family:'Tilt Prism';
+    }
+    
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .arkaplan3 {
+       position:absolute;
+       top:102%;
+       left:0%;
+       width:100%;
+       opacity:0.4;
+    }
+    #intro3 {
+      opacity: 0;
+      text-align: center;
+      animation: fadeIn 1.5s forwards;
+      position:absolute;
+      top:102%;
+      background: linear-gradient(to right, white,#8d8d8d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-family:'Tilt Prism';
+    } 
+   @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .arkaplan4 {
+       position:absolute;
+       top:145%;
+       left:0%;
+       width:100%;
+       opacity:0.8;
+       
+    }
+    #intro4 {
+      opacity: 0;
+      text-align: center;
+      animation: fadeIn 1.5s forwards;
+      position:absolute;
+      top:145%;
+      background: linear-gradient(to right, #626262,white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      font-family:'Tilt Prism';
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(-20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .start-button {
+      background-color: #522f15; /* Düğme rengi */
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease; /* Animasyon için geçiş efekti */
+      position:absolute;
+      top:188%;
+    }
+    .start-button:hover {
+      background-color: #000000; /* Düğme rengi - hover durumu */
+    }
+    
+    .bitis {
+    position:absolute;
+        top:186%;
+        left:0%;
+        width:100%;
+        height:10%;
+        background: linear-gradient(to right, white,black 100%);
+    } 
+  </style>
+</head>
+<body>
+    <div class="navbar"></div>
+    <dib class="baslik">
+        <p><font size="10%">ANTİKÇAGRI</font></p>
+    </dib>
+    <img class="arkaplan" src="/storage/emulated/0/Download/goal-3144351_1280.jpg">
+  <div id="intro">
+    <h1>Hoş Geldiniz!</h1>
+    <p><font color="white" face="Cinzel">Selam Maceracı, demek buraya kadar geldin ancak unutmaki bu kapıdan girdiğin an bütün dış dünyayla bütün bağlantını kesmen gerek. </font></p>
+    <p><font color="white" face="Cinzel">Ancak kapıdan girmeden önce biraz bilgilendirileceksiniz </font></p>
+  </div>
+  <img class="arkaplan2" src="/storage/emulated/0/Download/book-1052014_1280.jpg">
+  <div id="intro2">
+    <h1>Oyuncunuz</h1>
+    <p><font color="white" face="Cinzel">Ana karakter, sizin karakteriniz. Kaan, Kaan bir Arkeolog ancak yakın zamanda fikirleri "deli saçması" olarak göründügü için işten çıkartıldı.
+    Bu olaydan sonra psikolojik sıkıntılar yaşayan Kaan bütün servetini araştırmasına yatırdı...</font></p>
+  </div>
+
+ <img class="arkaplan3" src="/storage/emulated/0/Download/books-942485_1280.jpg">
+  <div id="intro3">
+    <h1>Diger Oyuncular</h1>
+    <p><font color="white" face="Cinzel"><li>Emir : Dilbilimci ayrıca Kaan 'nın iyi dostu</li><br>
+    <li>Can : Mühendis sonradan ekibe dahil oldu</li>
+    <br>
+    <li>Aylin : Astronom ekibe sonradan girdi</li>
+   </font>
+   </p>
+  </div>
+  <img class="arkaplan4" src="/storage/emulated/0/Download/hammer-719066_1280.jpg">
+  <div id="intro4">
+    <h1>Kurallar</h1>
+    <p><font color="white" face="Cinzel"><li>Kural 1 : Öldüğünüzde oyuna baştan başlamak zorundasınız</li><br>
+    <li>Kural 2 : Hikaye bölümlerini geçemezsiniz</li>
+    <br>
+    <li>Kural 3 : Başka kural yok tamamen serbestsiniz :)</li>
+   </font>
+   </p>
+  </div>
+  
+  <div class="bitis"></div>
+  <button class="start-button" onclick="startStory()"><font face="Tilt Prism">Hikayeye Başla</font></button>
+  
+  <script>
+    function startStory() {
+      window.location.href = "hikaye.html";
+      alert("Hikaye Bölüm.1");
+    }
+  </script>
+</body>
+</html>
